@@ -1,0 +1,24 @@
+{
+  "name": "typescript-api",
+  "version": "1.0.0",
+  "description": "node typescript api",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "api"
+  ],
+  "author": "Guilherme Lourenço",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/module-alias": "^2.0.1",
+    "@types/node": "^18.16.0",
+    "module-alias": "^2.2.2",
+    "typescript": "^5.0.4"
+  }
+}
